@@ -30,7 +30,7 @@ function init()
 		gearIcon.angle+= game.time.elapsedMS /10; 
 	}
 }
-//Reajustement de l'image en fonction de la taille de l'ecran
+//Reajustement de l'image en fonction de la taille de l'ecran ----------
 function adjustImageToScreenSize(image , screenRatio , isCircle , screenRatioY) // (image etant l'instance de l'objet Sprite par exemple gearIcon, screenRatio et le reajustement entre 0 et 1, isCircle est un boléan utiliser si la hauteur de l'image et egale a la largeur si ca n'est pas le cas il faudra utiliser le parametre screenRatioY pour reajuste la taille de l'image en hauteur)
 {
 	if(isCircle)
